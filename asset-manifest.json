@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/miniShop/static/css/main.d219094a.css",
+    "main.js": "/miniShop/static/js/main.6a517a68.js",
+    "static/media/logo.svg": "/miniShop/static/media/logo.d0749ca2507c77befd01e36d216be275.svg",
+    "static/media/redfFavorite.svg": "/miniShop/static/media/redfFavorite.c8eef48f2037ba0c93238e6082e5b8ea.svg",
+    "static/media/favorite.svg": "/miniShop/static/media/favorite.36657d4f9dfd2a5a8ddc1195055d296c.svg",
+    "static/media/cart.svg": "/miniShop/static/media/cart.e7e88316728b8585d417e3226abe3700.svg",
+    "index.html": "/miniShop/index.html",
+    "static/media/addedimg.svg": "/miniShop/static/media/addedimg.78076f919fd847dfda123985cd8eb489.svg",
+    "main.d219094a.css.map": "/miniShop/static/css/main.d219094a.css.map",
+    "main.6a517a68.js.map": "/miniShop/static/js/main.6a517a68.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d219094a.css",
+    "static/js/main.6a517a68.js"
+  ]
+}
