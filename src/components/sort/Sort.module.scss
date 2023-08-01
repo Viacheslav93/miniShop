@@ -1,0 +1,20 @@
+@import '../../styles/variables.scss';
+
+.sort{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+    select{
+        cursor: pointer;
+    }
+
+    @media (max-width: 460px) {
+        flex-direction: column;
+    }
+}
+.active{
+    background-color: green;
+    color: white;
+}

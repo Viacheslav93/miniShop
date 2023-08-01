@@ -1,0 +1,15 @@
+@import '../../styles/variables.scss';
+
+.limit{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 10px;
+
+    @media (max-width: 460px) {
+        flex-direction: column;
+    }
+}
+h5{
+    font-weight: 700;
+}

@@ -1,0 +1,55 @@
+@import '../../styles/variables.scss';
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    text-align: center;
+    align-items: center;
+    max-width: 700px;
+    padding: 20px;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+.title{
+    font-size: 20px;
+    font-weight: 600;
+}
+.image{
+    max-width: 500px;
+
+    @media (max-width: $md2) {
+        max-width: 400px;
+    }
+    @media (max-width: $md3) {
+        max-width: 300px;
+    }
+}
+.price{
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 30px;
+    
+    span{
+        font-weight: 600;
+    }
+
+    @media (max-width: 600px) {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+.btns{
+    display: flex;
+    gap: 30px;
+    
+    @media (max-width: 400px) {
+        flex-direction: column;
+        width: 100%;
+        a{
+            width: 100%;
+        }
+    }
+}

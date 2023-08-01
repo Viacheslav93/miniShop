@@ -1,0 +1,22 @@
+@import '../../styles/variables.scss';
+
+.filter{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    
+    @media (max-width: 560px) {
+        
+        flex-direction: column;
+    }
+}
+.category{
+    cursor: pointer;
+    white-space: nowrap;
+}
+.active{
+    border-bottom: 1px solid $white;
+    a{
+        color: $white;
+    }
+}

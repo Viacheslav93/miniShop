@@ -1,0 +1,37 @@
+@import '../../styles/variables.scss';
+
+.head{  
+    background-color: green;
+}
+.headContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 30px;
+    gap: 10px;
+    color: white;
+    
+    @media (max-width: $md1 ) {
+        flex-wrap: wrap;
+        column-gap: 50px;
+        row-gap: 30px;
+        padding: 30px 20px;
+        gap: 10px;
+    }
+    @media (max-width: $md3 ) {
+        padding: 10px ;
+        gap: 10px;
+    }
+}
+.filter{
+    @media (max-width: $md1) {
+        display: none;
+    }
+}
+.burger{
+    display: none;
+
+    @media (max-width: $md1) {
+        display: flex;
+    }
+}

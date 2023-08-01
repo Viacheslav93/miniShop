@@ -1,0 +1,11 @@
+.navbar{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.active{
+    border-bottom: 1px solid green;
+    a{
+        color: green;
+    }
+}

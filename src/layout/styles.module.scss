@@ -1,0 +1,43 @@
+@import '../styles/variables.scss';
+
+.header{
+    background-color: $white;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 71px;
+    gap: 10px;
+    padding-bottom: 20px;
+    
+    @media (max-width: $md2) {
+        flex-wrap: wrap;
+    }
+}
+.cart{
+    position: relative;
+    width: 28px;
+    height: 28px;
+    
+    span{
+        position: absolute;
+        top: -1px;
+        right: -2px;
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        background-color: green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 10px;
+    }
+}
+.search{
+        width: 350px;
+        @media (max-width: 570px) {
+            width: 100%;
+    }
+}

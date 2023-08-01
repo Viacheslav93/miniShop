@@ -1,0 +1,12 @@
+.search{
+    position: relative;
+    width: 100%;
+}
+.closeSearch{
+    position: absolute;
+    top: 50%;
+    right: 8px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: darkred;
+}
